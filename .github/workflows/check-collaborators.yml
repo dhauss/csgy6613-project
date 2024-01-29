@@ -56,6 +56,6 @@ jobs:
                   print(RED + f"[X] {user} is NOT a collaborator." + RESET)
                   action_result = 1
 
-            exit(action_result)
+          exit(action_result)
 
         shell: python
