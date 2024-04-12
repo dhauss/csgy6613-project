@@ -3,6 +3,7 @@
 Project work for CS-GY-6613 Spring 2024: Artificial Intelligence
 
 David Hauss: dh3382
+
 Andres Zarta: aza219@nyu.edu
 
 ## Milestone 1 Submission
