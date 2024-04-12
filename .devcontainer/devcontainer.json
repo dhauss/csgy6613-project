@@ -54,6 +54,6 @@
 				"terminal.integrated.defaultProfile.linux": "bash"
 			}
 		}
-	},
-	"postStartCommand": "jb config sphinx csgy6613-project && sphinx-autobuild --port 10010 csgy6613-project _build/html"
+	}//,
+	//"postStartCommand": "jb config sphinx csgy6613-project && sphinx-autobuild --port 10010 csgy6613-project _build/html"
 }
