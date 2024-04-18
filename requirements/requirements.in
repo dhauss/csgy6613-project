@@ -34,3 +34,4 @@ segment-anything-fast
 opencv-python==4.8.0.74
 huggingface_hub
 xarray
+tifffile
