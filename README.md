@@ -13,4 +13,4 @@ All relevant files are in the [ML1 folder](ML1). See [test_samgeo.ipynb](ML1/tes
 All relevant files are in the [ML2 Folder](ML2). Cell ouput from the [AutoMaskGenerator](ML2/AutoMaskGenerator.ipynb) notebook demonstrates that the [samgeo tutorial](https://www.youtube.com/watch?v=YHA_-QMB8_U&embeds_referring_euri=https%3A%2F%2Fpantelis.github.io%2F&source_ve_path=MjM4NTE&feature=emb_title) was successfully implemented in our environment.
 
 ## Milestone 3 IN PROGRESS
-Currently working on training the model, using Colab A100 with High GPU. Training on the val set for 4 Epochs, took 2 hours -> ~0.51 final loss. Good performance on the train set. Training on the train set for 2 Epochs, took 7 hours -> ~0.50 final loss.
+Currently working on training the model, using Colab A100 with High RAM. Training on the val set for 4 Epochs, took 2 hours -> ~0.51 final loss. Good performance on the train set. Training on the train set for 2 Epochs, took 7 hours -> ~0.50 final loss.
