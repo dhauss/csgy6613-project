@@ -12,5 +12,5 @@ All relevant files are in the [ML1 folder](ML1). See [test_samgeo.ipynb](ML1/tes
 ## Milestone 2 Submissions
 All relevant files are in the [ML2 Folder](ML2). Cell ouput from the [AutoMaskGenerator](ML2/AutoMaskGenerator.ipynb) notebook demonstrates that the [samgeo tutorial](https://www.youtube.com/watch?v=YHA_-QMB8_U&embeds_referring_euri=https%3A%2F%2Fpantelis.github.io%2F&source_ve_path=MjM4NTE&feature=emb_title) was successfully implemented in our environment.
 
-## Milestone 3 IN PROGRESS
-Currently working on training the model, using Colab A100 with High RAM. Training on the val set for 4 Epochs, took 2 hours -> ~0.51 final loss. Good performance on the train set. Training on the train set for 2 Epochs, took 7 hours -> ~0.50 final loss. Great performance on the val set.
+## Milestone 3
+All relevant files are in the [ML3 Folder](ML3). The [finetune.ipynb](ML3/finetune.ipynb) notebook was used for training and initial testing of our models, and the [model_testing.ipynb](ML3/model_testing.ipynb) notebook includes further testing of the two models we trained. Using Colab's A100 Nvidia setup with High RAM, we trained on a subset of the given dataset for 4 Epochs, which took 2 hours -> ~0.51 final loss. Training on the full dataset set for 2 Epochs took 7 hours with a ~0.50 final loss rate. We found great performance from both models by testing on the val set, but opted for the model trained on the full dataset due to the fact that it would like have more generalizable results.
