@@ -16,7 +16,7 @@ All relevant files are in the [ML2 Folder](ML2). Cell ouput from the [AutoMaskGe
 All relevant files are in the [ML3 Folder](ML3). The [finetune.ipynb](ML3/finetune.ipynb) notebook was used for training and initial testing of our models, and the [model_testing.ipynb](ML3/model_testing.ipynb) notebook includes further testing of the two models we trained. Using Colab's A100 Nvidia setup with High RAM, we trained on a subset of the given dataset for 4 Epochs, which took 2 hours -> ~0.51 final loss. Training on the full dataset set for 2 Epochs took 7 hours with a ~0.50 final loss rate. We found great performance from both models by testing on the val set, but opted for the model trained on the full dataset due to the fact that it would likely have more generalizable results and that it slightly outperformed the model trained on a smaller dataset in the IoU tests (35.8% to 34.7%).
 
 ## Milestone 4 Submission
-Link to the Video Demo: https://drive.google.com/file/d/1B4vOip69ltgPgDQ0Ze93l9emyzMoc7Z2/view?usp=sharing \
+Link to the Video Demo: https://drive.google.com/file/d/1B4vOip69ltgPgDQ0Ze93l9emyzMoc7Z2/view?usp=sharing 
 
 Link to the Hugging Face Space App: https://huggingface.co/spaces/AndresZarta/ML4
 
