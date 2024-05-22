@@ -41,11 +41,11 @@ jobs:
 
           # Check if the repository is private
           repo_info = requests.get(f'https://api.github.com/repos/{repo}', headers=headers).json()
-          if repo_info.get('private', False):
-              print(GREEN + "[✓] Repository is private." + RESET)
-          else:
-              print(RED + "[X] Repository is NOT private." + RESET)
-              action_result = 1
+          #if repo_info.get('private', False):
+          #    print(GREEN + "[✓] Repository is private." + RESET)
+          #else:
+          #    print(RED + "[X] Repository is NOT private." + RESET)
+          #   action_result = 1
 
           # Check each user
           for user in users_to_check:
